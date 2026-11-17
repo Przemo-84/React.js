@@ -1,0 +1,88 @@
+@media ALL AND (min-width : 1201px)
+{
+    .commit_dialog{
+        width : 520px;
+    }
+
+    .commit_dialog_span{
+        font-size : 16px;
+    }
+}
+
+@media ALL AND (min-width : 1001px) AND (max-width : 1200px)
+{
+    .commit_dialog{
+        width : 520px;
+    }
+
+    .commit_dialog_span{
+        font-size : 16px;
+    }
+}
+
+@media ALL AND (min-width : 801px) AND (max-width : 1000px)
+{
+    .commit_dialog{
+        width : 460px;
+    }
+
+    .commit_dialog_span{
+        font-size : 14px;
+    }
+}
+
+@media ALL AND (min-width : 601px) AND (max-width : 800px)
+{
+    .commit_dialog{
+        width : 460px;
+    }
+
+    .commit_dialog_span{
+        font-size : 14px;
+    }
+}
+
+@media ALL AND (min-width : 401px) AND (max-width : 600px)
+{
+    .commit_dialog{
+        width : 420px;
+    }
+
+    .commit_dialog_span{
+        font-size : 14px;
+    }
+}
+
+@media ALL AND (min-width : 321px) AND (max-width : 400px)
+{
+
+    .commit_dialog{
+        width : 260px; min-width : 260px;
+    }
+
+    .commit_dialog_span{
+        font-size : 14px;
+    }
+} 
+
+.commit_dialog_span{
+    position : relative; float: left; font-family : "Inter_18pt-Medium"; line-height: 28px; color : rgb(57, 59, 62); letter-spacing: 1px;
+    text-align : center; margin-left: 5%; width : 90%; 
+}
+
+#commit_dialog_buttons_div{
+    position : relative; float: left; clear : left; margin : 20px 0px 10px 0px;
+}
+
+.commit_dialog_button{
+    float: left; font-family : "Inter_18pt-Medium";
+    font-size : 14px; padding : 10px 40px 10px 40px; cursor : pointer;
+    outline : 0px; border-radius: 5px; border : 0px; background-color: #0087ff; color : azure;
+}
+
+#abort_button{margin : 0px;}
+
+#commit_button{margin-left : 10px;}
+
+
+.commit_dialog_button:hover {background-color: #0d66b3;}

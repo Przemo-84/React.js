@@ -1,0 +1,62 @@
+@media ALL AND (min-width : 1201px)
+{
+   .numberInput_span{ font-size : 14px; line-height : 14px; margin : 9px 0px 3px 7px; }
+
+   .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 3px 0px 3px 0px; width : 22px; margin : 3px 3px 3px 0px; }
+}
+
+@media ALL AND (min-width : 1001px) AND (max-width : 1200px)
+{
+   .numberInput_span{ font-size : 14px; line-height : 14px; margin : 9px 0px 3px 7px; }
+
+   .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 3px 0px 3px 0px; width : 22px; margin : 3px 3px 3px 0px; }
+}
+
+@media ALL AND (min-width : 801px) AND (max-width : 1000px)
+{
+    .numberInput_span{ font-size : 14px; line-height : 14px; margin : 9px 0px 3px 7px; }
+
+    .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 3px 0px 3px 0px; width : 22px; margin : 3px 3px 3px 0px; }
+} 
+
+@media ALL AND (min-width : 601px) AND (max-width : 800px)
+{
+    .numberInput_span{ font-size : 14px; line-height : 14px; margin : 9px 0px 3px 7px; }
+
+    .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 3px 0px 3px 0px; width : 22px; margin : 3px 3px 3px 0px; }
+}
+
+@media ALL AND (min-width : 401px) AND (max-width : 600px)
+{
+    .numberInput_span{ font-size : 14px; line-height : 14px; margin : 7px 0px 3px 7px; }
+
+    .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 2px 0px 2px 0px; width : 20px; margin : 3px 3px 3px 0px; }
+}
+
+@media ALL AND (min-width : 321px) AND (max-width : 400px)
+{
+    .numberInput_span{ font-size : 12px; line-height : 12px; margin : 7px 0px 3px 7px; }
+
+    .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 2px 0px 2px 0px; width : 20px; margin : 3px 3px 3px 0px; }
+}
+
+@media ALL AND (max-width : 320px)
+{
+    .numberInput_span{ font-size : 12px; line-height : 12px; margin : 7px 0px 3px 7px; }
+
+    .numberInput_buttons{ font-size : 16px; line-height : 16px; padding : 2px 0px 3px 0px; width : 20px; margin : 3px 3px 3px 0px; }
+}
+
+
+.numberInput_div {
+    float : left; margin-left : 0px; width : 100%; min-width : 100px;
+}
+
+.numberInput_span{
+    float : left; font-family: "Inter_18pt-Bold"; text-align : left; font-size : 14px; line-height : 14px;
+}
+
+.numberInput_buttons{
+    float : right; font-family: "Inter_18pt-Bold"; text-align : center; cursor : pointer 
+}
+

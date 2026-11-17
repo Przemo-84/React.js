@@ -1,0 +1,96 @@
+@media ALL AND (min-width : 1201px)
+{
+    .listDiv_itemSpans{font-size : 0.7em}
+
+    .inputSelect {font-size : 0.7em}
+
+    .inputSelect_label {font-size : 0.7em}
+}
+
+@media ALL AND (min-width : 1001px) AND (max-width : 1200px)
+{
+    .listDiv_itemSpans {font-size : 0.7em}
+
+    .inputSelect {font-size : 0.7em}
+
+    .inputSelect_label {font-size : 0.7em}
+}
+
+@media ALL AND (min-width : 801px) AND (max-width : 1000px)
+{ 
+    .listDiv_itemSpans{font-size : 0.7em}
+
+    .inputSelect {font-size : 0.7em}
+
+    .inputSelect_label {font-size : 0.7em}
+}
+
+
+@media ALL AND (min-width : 601px) AND (max-width : 800px)
+{
+    .listDiv_itemSpans{font-size : 0.7em}
+
+    .inputSelect {font-size : 0.7em}
+
+    .inputSelect_label {font-size : 0.7em}
+}
+
+@media ALL AND (min-width : 401px) AND (max-width : 600px)
+{
+    .listDiv_itemSpans{font-size : 0.65em}
+
+    .inputSelect {font-size : 0.65em}
+
+    .inputSelect_label {font-size : 0.65em}
+}
+
+@media ALL AND (min-width : 321px) AND (max-width : 400px)
+{
+    .listDiv_itemSpans{font-size : 0.5em} 
+
+    .inputSelect {font-size : 0.5em}
+
+    .inputSelect_label {font-size : 0.5em}
+}
+
+@media ALL AND (max-width : 320px)
+{
+    .listDiv_itemSpans{font-size : 0.5em}
+
+    .inputSelect {font-size : 0.5em}
+
+    .inputSelect_label {font-size : 0.5em}
+} 
+
+
+.input_select_div input {
+    position : absolute; float : left; margin-left : 0px; width : 90%; font-family : "Inter_18pt-Regular"; letter-spacing : 0.075em;
+    color : #111827; text-align : left; background-color : #f8fafc ; outline : 1px solid #c4c5c9;
+    border : 0px; border-radius : 4px; padding : 8px 0px 8px 0px; cursor : pointer;
+}
+
+.input_div{ position : absolute; float : left; clear : left; width : 100%;}
+
+.inputSelect_label
+{
+    margin : 0px 0px 10px 0px; width : 100%; letter-spacing : 0.075em;
+}
+
+.left_right_icons {position : absolute;}
+
+#leftIcon {margin-left : 10px; height : 14px;}
+
+#rightIcon {height : 8px;}
+
+.list_divs{position : absolute; float : left; clear : left; display: block; margin-top : 10px; background-color : #f8fafc; border : 1px solid #c4c5c9; border-radius : 6px; z-index : 2}
+
+.listDiv_items{position : relative; float : left;  width : 100%; cursor : pointer}
+
+.listDiv_items:hover{background-color : #d0e0ef}
+
+.listDiv_itemSpans
+{
+    position : relative; float : left; margin : 5px 2% 5px 2%; width : 80%; font-family : "Inter_18pt-Light"; letter-spacing : 0.075em; color : #111827
+}
+
+.listDiv_itemIcons{position : relative; float : right; margin-right : 2%; height : 7px;}

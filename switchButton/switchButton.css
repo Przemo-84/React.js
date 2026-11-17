@@ -1,0 +1,67 @@
+@media ALL AND (min-width : 1201px)
+{
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+
+}
+
+@media ALL AND (min-width : 1001px) AND (max-width : 1200px)
+{
+
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+}
+
+@media ALL AND (min-width : 801px) AND (max-width : 1000px)
+{
+   
+   #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+}
+
+@media ALL AND (min-width : 601px) AND (max-width : 800px)
+{
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+  
+}
+
+@media ALL AND (min-width : 401px) AND (max-width : 600px)
+{
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+  
+}
+
+@media ALL AND (min-width : 321px) AND (max-width : 400px)
+{
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+  
+}
+
+@media ALL AND (max-width : 320px)
+{
+    #switch
+    {
+        width : 16px; height : 16px; margin-top : 2px; margin-bottom : 2px; border-radius : 50px; 
+    }
+
+}
+
+#switch_button
+{
+    width : 40px; height : 20px; border-radius : 25px; margin-right : 15px; float : right; cursor : pointer;   
+}
